@@ -63,7 +63,7 @@ class StarDate(object):
         try:
         	parser = argparse.ArgumentParser()
         	parser.add_argument('-n', '--now', help='useful if you want the star date for the current date(now).', action="store_true")
-        	parser.add_argument('-v', '--verbose', help='if you want to see more variables and the calculation process', action="store_true")
+        	parser.add_argument('-v', '--verbose', help='if you want to see more variables and the calculation process', action="store_true", default=True)
         	parser.add_argument('-d', '--date', help='Enter the date to convert to stardate, format YYYY-MM-DD', type=str)
         	args = parser.parse_args()
         	

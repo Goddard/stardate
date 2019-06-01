@@ -9,11 +9,12 @@ class StarDate():
     date = None
     stardate = None
     
-    def __init__(self, date = None):
+    def __init__(self, date = None, verbose = False):
         if(self.verbose):
             print("---Initializing---")
 
         self.date = date
+        self.verbose = verbose
 
     def setDate(self, date):
         self.date = date

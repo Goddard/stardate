@@ -1,6 +1,4 @@
 from stardate import StarDate
 
-stardate2 = StarDate("1999-03-1", False)
-
-stardateVar = stardate2.getStardate()
-print(stardateVar)
+stardate2 = StarDate("2018-07-15 17:58:00", False).getStardate()
+print(stardate2)

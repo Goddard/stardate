@@ -13,3 +13,6 @@ This project I made is open source.  Feel free to use it and make changes.
 
 ### Credit
 If you use this project please include my information.  Appreciate it.
+
+### Example Output 
+15 July 2018 / 72003.1

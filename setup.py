@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="stardate-pkg-goddard",
+    name="stardate-goddard",
     version="0.0.1",
     author="Ryein Goddard",
     author_email="ryein@live.com",
